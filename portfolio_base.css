@@ -4,6 +4,32 @@ Author: Matthew Daley
 Date: 01-02-2023
 */
 body{
-    background-color: #38b48b
-    color whitesmoke
+    background-color: #38b48b;
+    color: whitesmoke;
+    font-family: Garamond;
+}
+
+.center{
+    text-align: center;
+}
+
+#big{
+    font-size: larger;
+    font-weight: bold;
+}
+
+ul.Ul1{
+    list-style-type: circle;
+}
+
+ul.Ul2{
+    list-style-type: square;
+}
+
+title, h1{
+    font-weight: bold;
+}
+
+#bold ol{
+    font-weight: bold;
 }
