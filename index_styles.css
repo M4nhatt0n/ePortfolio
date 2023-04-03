@@ -8,5 +8,24 @@ Layout and styles for Index page
 .header{
     text-align: center;
     padding: 20px;
-
 }
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodycol{
+    word-wrap: break-word;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    padding-right: 20%;
+}
+.imgcol{
+    padding-left:20%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
+
+
+
