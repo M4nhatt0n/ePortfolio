@@ -3,33 +3,28 @@
 Author: Matthew Daley
 Date: 01-02-2023
 */
-body{
+body {
     background-color: #38b48b;
     color: whitesmoke;
     font-family: Garamond;
 }
 
-.center{
+
+/* Navbar code from: https://www.w3schools.com/css/css_website_layout.asp*/
+
+.navbar {
+    overflow:hidden;
+    background-color: #395c6b;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
-#big{
-    font-size: larger;
-    font-weight: bold;
-}
-
-ul.Ul1{
-    list-style-type: circle;
-}
-
-ul.Ul2{
-    list-style-type: square;
-}
-
-title, h1{
-    font-weight: bold;
-}
-
-#bold ol{
-    font-weight: bold;
+.navbar a:hover {
+    background-color: #4f7e92;
+    color: whitesmoke;
 }
