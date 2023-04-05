@@ -1,6 +1,6 @@
 //Hamburger Script Provided to Us In Class
-const menu = document.querySelector(".menu");
-const menuItems = document.querySelectorAll(".menuItem");
+const menu = document.querySelector(".navbar");
+const menuItems = document.querySelectorAll(".navitem");
 const hamburger= document.querySelector(".hamburger");
 const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
