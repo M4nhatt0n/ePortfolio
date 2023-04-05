@@ -4,28 +4,23 @@ Author: Matthew Daley
 Date: 4/03/2023
 Layout and styles for Index page
 */
-
-.header{
-    text-align: center;
-    padding: 20px;
+@media only screen and (min-width: 768px) {
+    .header{
+        text-align: center;
+        padding: 20px;
+    }
+    .flex-container{
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .leftcol{
+        margin-right: 5%;
+    }
+    .rightcol{
+        margin-left: 5%;
+    }
+    div.rightcol > p {
+        font-size: large;
+    }
 }
-
-.flex-container{
-    display: flex;
-    justify-content: space-around;
-}
-
-.bodycol{
-    word-wrap: break-word;
-    padding-left: 10%;
-    padding-bottom: 20%;
-    padding-right: 20%;
-}
-.imgcol{
-    padding-left:20%;
-    padding-bottom: 20%;
-    padding-right: 10%;
-}
-
-
-
