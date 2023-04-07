@@ -10,7 +10,8 @@ function toggleMenu() {
     menu.classList.remove("showMenu");
     closeIcon.style.display = "none";
     menuIcon.style.display = "block";
-  } else {
+  } 
+  else {
     menu.classList.add("showMenu");
     closeIcon.style.display = "block";
     menuIcon.style.display = "none";

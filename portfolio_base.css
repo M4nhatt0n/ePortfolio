@@ -26,6 +26,17 @@ body {
         color: #f2f2f2;
         overflow:hidden;
     }
+    .navbar a {
+      display:block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: #f2f2f2;
+    }
+    .navbar a:hover {
+      background-color: #4f7e92;
+      color: whitesmoke;
+  }
     .hamburger {
         position: fixed;
         z-index: 100;
@@ -63,4 +74,7 @@ body {
         background-color: #4f7e92;
         color: whitesmoke;
     }
+    button.hamburger{
+      display:none;
+  }
 }
