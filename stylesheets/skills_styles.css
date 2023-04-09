@@ -13,11 +13,6 @@ Date: 4-07-2023
         margin-left: auto;
         margin-right: auto;
     }
-    div.rightfcol{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
     ul {
         padding-left: 0;
     }
@@ -52,7 +47,7 @@ Date: 4-07-2023
     div.rightcol{
         font-size: 1.5em;
     }
-    ol li{
+    ul li{
         padding: 10px;
         margin-bottom: 30px;
         background-color: #395c6b;
