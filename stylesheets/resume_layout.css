@@ -8,46 +8,37 @@ Layout for portfolio
     background-color: white;
     color: black;
 }
-ul#nav>li>a{
-    display:block;
-    }
-    ul#nav>li{
-        float: left;
-        width: 20%;
-        background-color: aliceblue;
-    }
-    ul#hNav{
-        list-style-type: none;
-        width: 100%;
-        overflow: hidden;
-    
-    }
 @media only screen and (min-width: 768px) {
+    .grid-container{
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
     .item1{
         grid-area: title;
         text-align: center;
     }
     .item2{
-        grid-area: contact;
-    }
-    .item3{
-        grid-area: skills;
-    }
-    .item4{
-        grid-area: eductation;
-    }
-    .item5{
         grid-area: experience;
     }
-    .item6{
-        grid-area: profile;
+    .item3{
+        grid-area: education;
+    }
+    .item4{
+        grid-area: skills;
+    }
+    .item5{
+        grid-area: qualities;
     }
     .grid-container{
         display: grid;
         grid-template-areas:  
-        'title title title title'
-        'contact profile profile profile'
-        'skills experience experience experience'
-        'education experience experience experience';
+        'title title'
+        'experience experience'
+        'education education'
+        'skills skills'
+        'qualities qualities'
+        ;
     }
   }
