@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*
+Author: Matthew Daley
+Date: 4-07-2023
+*/
+@media only screen and (max-width: 767px) {
+    .header{
+        text-align: center;
+        padding: 20px;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.rightfcol{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul {
+        padding-left: 0;
+    }
+    ul li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        background-color: #395c6b;
+        list-style-position: inside;
+        text-align:center;
+        border-style: 2px solid;
+        border-radius: 12px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .header{
+        text-align: center;
+        padding: 20px;
+    }
+    .flex-container{
+        display: flex;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .leftcol{
+        margin-right: 5%;
+    }
+    .rightcol{
+        margin-left: 5%;
+    }
+    div.rightcol{
+        font-size: 1.5em;
+    }
+    ol li{
+        padding: 10px;
+        margin-bottom: 30px;
+        background-color: #395c6b;
+        list-style-position: inside;
+        text-align:center;
+        border-style: 2px solid;
+        border-radius: 12px;
+    }
+}
