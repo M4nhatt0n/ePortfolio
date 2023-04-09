@@ -8,6 +8,10 @@ body {
     color: whitesmoke;
     font-family: Garamond;
 }
+.header{
+  text-align: center;
+  padding: 20px;
+}
 
 
 /* Navbar code from: https://www.w3schools.com/css/css_website_layout.asp*/

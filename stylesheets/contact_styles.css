@@ -7,9 +7,10 @@ Date: 01-02-2023
 label{
     font-weight: bold;
     vertical-align: top;
+    display: block;
 }
-
-
-#container{
-    
+p{
+    font-size:larger;
+    text-align: center;
+    padding-bottom: 20px;
 }
